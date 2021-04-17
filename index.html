@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cats are weird</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $('#jim').click(function(){
+            $('#afterClick').text('')
+            $('#afterClick').append("I am gaaaay ")
+          });
+
+          $('#smoky').click(function(){
+            $('#afterClick').text('')
+            $('#afterClick').append("I'm a big fat foodie")
+          });
+
+          $('#james').click(function(){
+            $('#afterClick').text('')
+            $('#afterClick').append("Catnip junkie")
+          });
+
+          $('#lola').click(function(){
+            $('#afterClick').text('')
+            $('#afterClick').append("Old lady vibes")
+          });
+
+
+
+
+        });
+        </script>
+
+</head>
+<body>
+
+<h1>Lets Have Fun Hoooman  !! </h1>
+<p> Choose one: </p>
+<img id = "smoky" src="smoky.jpg" > 
+<img id = "lola" src="lola.jpg" > 
+<img id = "jim" src="jim.jpg" > 
+<img id = "james" src="james.jpg" > 
+<p id = "afterClick"></p>
+
+
+
+
+</body>
+</html> 

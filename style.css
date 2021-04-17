@@ -1,0 +1,21 @@
+body {
+    background-color: #CCB138;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    margin-left: 30px;
+}
+
+h1 {
+    font-size: 65px;
+    color: white;
+    font-family: Helvetica, "Helvetica Neue";
+}
+
+p {
+   font-size: 50px;
+}
